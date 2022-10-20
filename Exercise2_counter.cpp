@@ -19,24 +19,7 @@ int main()
       word_count++;
     }
 
-    // else if (ch == '.')
-    // {
-    //   sentence_count++;
-    //   std::cout << "outside if condition is : " << ch << std::endl;
-    //   fin.get(ch);
-
-    //   if ((ch == ' '))
-    //   {
-    //     std::cout << "inside if condition" << ch << std::endl;
-    //     word_count++;
-    //   }
-
-    //   else if ((ch == '\n'))
-    //   {
-    //     std::cout << "inside if condition" << ch << std::endl;
-    //     word_count++;
-    //   }
-    // }
+  
 
     else if(ch=='.'){
        sentence_count++;
@@ -65,15 +48,7 @@ int main()
       uppercase_count++;
     }
 
-    // else if(ch==','){
-    //   fin.get(ch);
-    //   if ((ch == ' '))
-    //   {
-    //     std::cout << "inside if condition" << ch << std::endl;
-    //     word_count++;
-    //   }
-
-    // }
+   
 
     else if(ch==',' || ch=='!'){
        word_count++;
@@ -82,7 +57,6 @@ int main()
         fin.get(ch);
        }
        fin.unget();
-       std::cout<<"now the value is :"<<ch<<std::endl;
     }
   }
 
@@ -99,4 +73,5 @@ int main()
 
   return 0;
 }
+
 
